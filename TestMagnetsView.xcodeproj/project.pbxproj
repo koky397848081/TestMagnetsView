@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839C8CA236DE46BFF6B3D5ED /* libPods-TestMagnetsViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D335DACBE5EFCB38D8B8FEE2 /* libPods-TestMagnetsViewTests.a */; };
+		BA88A47AA4BDD5D7C995353F /* libPods-TestMagnetsView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2453C6F3ECD2DE6B13EED2 /* libPods-TestMagnetsView.a */; };
+		CC68A4F41EBF60B600A3C3F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC68A4F31EBF60B600A3C3F5 /* main.m */; };
+		CC68A4F71EBF60B600A3C3F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC68A4F61EBF60B600A3C3F5 /* AppDelegate.m */; };
+		CC68A4FA1EBF60B600A3C3F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC68A4F91EBF60B600A3C3F5 /* ViewController.m */; };
+		CC68A4FD1EBF60B600A3C3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC68A4FB1EBF60B600A3C3F5 /* Main.storyboard */; };
+		CC68A4FF1EBF60B600A3C3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC68A4FE1EBF60B600A3C3F5 /* Assets.xcassets */; };
+		CC68A5021EBF60B600A3C3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC68A5001EBF60B600A3C3F5 /* LaunchScreen.storyboard */; };
+		CC68A50D1EBF60B600A3C3F5 /* TestMagnetsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC68A50C1EBF60B600A3C3F5 /* TestMagnetsViewTests.m */; };
+		CC68A5181EBF60B600A3C3F5 /* TestMagnetsViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC68A5171EBF60B600A3C3F5 /* TestMagnetsViewUITests.m */; };
+		CC68A5271EBF611000A3C3F5 /* ALMagnetsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC68A5261EBF611000A3C3F5 /* ALMagnetsView.m */; };
+		DAEC79185C343A0CE7308B9C /* libPods-TestMagnetsViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 839F927693F0E95A08B0C355 /* libPods-TestMagnetsViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC68A5091EBF60B600A3C3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC68A4E71EBF60B600A3C3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC68A4EE1EBF60B600A3C3F5;
+			remoteInfo = TestMagnetsView;
+		};
+		CC68A5141EBF60B600A3C3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC68A4E71EBF60B600A3C3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC68A4EE1EBF60B600A3C3F5;
+			remoteInfo = TestMagnetsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A67FA5B5F74A46A2CACB666 /* Pods-TestMagnetsViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMagnetsViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMagnetsViewTests/Pods-TestMagnetsViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		824C711F7B684B87562A7D73 /* Pods-TestMagnetsViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMagnetsViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMagnetsViewTests/Pods-TestMagnetsViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		839F927693F0E95A08B0C355 /* libPods-TestMagnetsViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMagnetsViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		893D640BEB9E8DF300BADD2A /* Pods-TestMagnetsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMagnetsView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMagnetsView/Pods-TestMagnetsView.debug.xcconfig"; sourceTree = "<group>"; };
+		96D61C72804ECDA41244EF90 /* Pods-TestMagnetsViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMagnetsViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMagnetsViewUITests/Pods-TestMagnetsViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5C2CEB891EB6DBC700B44E6 /* Pods-TestMagnetsViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMagnetsViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMagnetsViewUITests/Pods-TestMagnetsViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5D8FA510BF4225229190FB1 /* Pods-TestMagnetsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMagnetsView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMagnetsView/Pods-TestMagnetsView.release.xcconfig"; sourceTree = "<group>"; };
+		CC68A4EF1EBF60B600A3C3F5 /* TestMagnetsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMagnetsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC68A4F31EBF60B600A3C3F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC68A4F51EBF60B600A3C3F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC68A4F61EBF60B600A3C3F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC68A4F81EBF60B600A3C3F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC68A4F91EBF60B600A3C3F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC68A4FC1EBF60B600A3C3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC68A4FE1EBF60B600A3C3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC68A5011EBF60B600A3C3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC68A5031EBF60B600A3C3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC68A5081EBF60B600A3C3F5 /* TestMagnetsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMagnetsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC68A50C1EBF60B600A3C3F5 /* TestMagnetsViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMagnetsViewTests.m; sourceTree = "<group>"; };
+		CC68A50E1EBF60B600A3C3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC68A5131EBF60B600A3C3F5 /* TestMagnetsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMagnetsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC68A5171EBF60B600A3C3F5 /* TestMagnetsViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMagnetsViewUITests.m; sourceTree = "<group>"; };
+		CC68A5191EBF60B600A3C3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC68A5251EBF611000A3C3F5 /* ALMagnetsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMagnetsView.h; sourceTree = "<group>"; };
+		CC68A5261EBF611000A3C3F5 /* ALMagnetsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMagnetsView.m; sourceTree = "<group>"; };
+		D335DACBE5EFCB38D8B8FEE2 /* libPods-TestMagnetsViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMagnetsViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2453C6F3ECD2DE6B13EED2 /* libPods-TestMagnetsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMagnetsView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC68A4EC1EBF60B600A3C3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA88A47AA4BDD5D7C995353F /* libPods-TestMagnetsView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC68A5051EBF60B600A3C3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839C8CA236DE46BFF6B3D5ED /* libPods-TestMagnetsViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC68A5101EBF60B600A3C3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEC79185C343A0CE7308B9C /* libPods-TestMagnetsViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DECDAE935746323FE32D35E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				893D640BEB9E8DF300BADD2A /* Pods-TestMagnetsView.debug.xcconfig */,
+				B5D8FA510BF4225229190FB1 /* Pods-TestMagnetsView.release.xcconfig */,
+				0A67FA5B5F74A46A2CACB666 /* Pods-TestMagnetsViewTests.debug.xcconfig */,
+				824C711F7B684B87562A7D73 /* Pods-TestMagnetsViewTests.release.xcconfig */,
+				96D61C72804ECDA41244EF90 /* Pods-TestMagnetsViewUITests.debug.xcconfig */,
+				A5C2CEB891EB6DBC700B44E6 /* Pods-TestMagnetsViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC68A4E61EBF60B600A3C3F5 = {
+			isa = PBXGroup;
+			children = (
+				CC68A4F11EBF60B600A3C3F5 /* TestMagnetsView */,
+				CC68A50B1EBF60B600A3C3F5 /* TestMagnetsViewTests */,
+				CC68A5161EBF60B600A3C3F5 /* TestMagnetsViewUITests */,
+				CC68A4F01EBF60B600A3C3F5 /* Products */,
+				5DECDAE935746323FE32D35E /* Pods */,
+				F2CEBA29E2E879869B9068E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC68A4F01EBF60B600A3C3F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC68A4EF1EBF60B600A3C3F5 /* TestMagnetsView.app */,
+				CC68A5081EBF60B600A3C3F5 /* TestMagnetsViewTests.xctest */,
+				CC68A5131EBF60B600A3C3F5 /* TestMagnetsViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC68A4F11EBF60B600A3C3F5 /* TestMagnetsView */ = {
+			isa = PBXGroup;
+			children = (
+				CC68A4F51EBF60B600A3C3F5 /* AppDelegate.h */,
+				CC68A4F61EBF60B600A3C3F5 /* AppDelegate.m */,
+				CC68A4F81EBF60B600A3C3F5 /* ViewController.h */,
+				CC68A4F91EBF60B600A3C3F5 /* ViewController.m */,
+				CC68A5251EBF611000A3C3F5 /* ALMagnetsView.h */,
+				CC68A5261EBF611000A3C3F5 /* ALMagnetsView.m */,
+				CC68A4FB1EBF60B600A3C3F5 /* Main.storyboard */,
+				CC68A4FE1EBF60B600A3C3F5 /* Assets.xcassets */,
+				CC68A5001EBF60B600A3C3F5 /* LaunchScreen.storyboard */,
+				CC68A5031EBF60B600A3C3F5 /* Info.plist */,
+				CC68A4F21EBF60B600A3C3F5 /* Supporting Files */,
+			);
+			path = TestMagnetsView;
+			sourceTree = "<group>";
+		};
+		CC68A4F21EBF60B600A3C3F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC68A4F31EBF60B600A3C3F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC68A50B1EBF60B600A3C3F5 /* TestMagnetsViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC68A50C1EBF60B600A3C3F5 /* TestMagnetsViewTests.m */,
+				CC68A50E1EBF60B600A3C3F5 /* Info.plist */,
+			);
+			path = TestMagnetsViewTests;
+			sourceTree = "<group>";
+		};
+		CC68A5161EBF60B600A3C3F5 /* TestMagnetsViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC68A5171EBF60B600A3C3F5 /* TestMagnetsViewUITests.m */,
+				CC68A5191EBF60B600A3C3F5 /* Info.plist */,
+			);
+			path = TestMagnetsViewUITests;
+			sourceTree = "<group>";
+		};
+		F2CEBA29E2E879869B9068E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2453C6F3ECD2DE6B13EED2 /* libPods-TestMagnetsView.a */,
+				D335DACBE5EFCB38D8B8FEE2 /* libPods-TestMagnetsViewTests.a */,
+				839F927693F0E95A08B0C355 /* libPods-TestMagnetsViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC68A4EE1EBF60B600A3C3F5 /* TestMagnetsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC68A51C1EBF60B600A3C3F5 /* Build configuration list for PBXNativeTarget "TestMagnetsView" */;
+			buildPhases = (
+				1EA8D6302E2FF4AFD3A35CC9 /* [CP] Check Pods Manifest.lock */,
+				CC68A4EB1EBF60B600A3C3F5 /* Sources */,
+				CC68A4EC1EBF60B600A3C3F5 /* Frameworks */,
+				CC68A4ED1EBF60B600A3C3F5 /* Resources */,
+				7759A14F23F626FA0849B295 /* [CP] Embed Pods Frameworks */,
+				C745C586A931F5AAE125B5A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMagnetsView;
+			productName = TestMagnetsView;
+			productReference = CC68A4EF1EBF60B600A3C3F5 /* TestMagnetsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC68A5071EBF60B600A3C3F5 /* TestMagnetsViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC68A51F1EBF60B600A3C3F5 /* Build configuration list for PBXNativeTarget "TestMagnetsViewTests" */;
+			buildPhases = (
+				CE501F8608A1E9DB98301218 /* [CP] Check Pods Manifest.lock */,
+				CC68A5041EBF60B600A3C3F5 /* Sources */,
+				CC68A5051EBF60B600A3C3F5 /* Frameworks */,
+				CC68A5061EBF60B600A3C3F5 /* Resources */,
+				DDE8F642BF2763C440F302A7 /* [CP] Embed Pods Frameworks */,
+				FC6779E95E9AE11194229431 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC68A50A1EBF60B600A3C3F5 /* PBXTargetDependency */,
+			);
+			name = TestMagnetsViewTests;
+			productName = TestMagnetsViewTests;
+			productReference = CC68A5081EBF60B600A3C3F5 /* TestMagnetsViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC68A5121EBF60B600A3C3F5 /* TestMagnetsViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC68A5221EBF60B600A3C3F5 /* Build configuration list for PBXNativeTarget "TestMagnetsViewUITests" */;
+			buildPhases = (
+				E0055557C97B5A311CB5A21C /* [CP] Check Pods Manifest.lock */,
+				CC68A50F1EBF60B600A3C3F5 /* Sources */,
+				CC68A5101EBF60B600A3C3F5 /* Frameworks */,
+				CC68A5111EBF60B600A3C3F5 /* Resources */,
+				C3B386F2B8D2191D37A0DDAD /* [CP] Embed Pods Frameworks */,
+				369AC34C375C8ECCB3F15EF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC68A5151EBF60B600A3C3F5 /* PBXTargetDependency */,
+			);
+			name = TestMagnetsViewUITests;
+			productName = TestMagnetsViewUITests;
+			productReference = CC68A5131EBF60B600A3C3F5 /* TestMagnetsViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC68A4E71EBF60B600A3C3F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jingjing;
+				TargetAttributes = {
+					CC68A4EE1EBF60B600A3C3F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+					};
+					CC68A5071EBF60B600A3C3F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC68A4EE1EBF60B600A3C3F5;
+					};
+					CC68A5121EBF60B600A3C3F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC68A4EE1EBF60B600A3C3F5;
+					};
+				};
+			};
+			buildConfigurationList = CC68A4EA1EBF60B600A3C3F5 /* Build configuration list for PBXProject "TestMagnetsView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC68A4E61EBF60B600A3C3F5;
+			productRefGroup = CC68A4F01EBF60B600A3C3F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC68A4EE1EBF60B600A3C3F5 /* TestMagnetsView */,
+				CC68A5071EBF60B600A3C3F5 /* TestMagnetsViewTests */,
+				CC68A5121EBF60B600A3C3F5 /* TestMagnetsViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC68A4ED1EBF60B600A3C3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC68A5021EBF60B600A3C3F5 /* LaunchScreen.storyboard in Resources */,
+				CC68A4FF1EBF60B600A3C3F5 /* Assets.xcassets in Resources */,
+				CC68A4FD1EBF60B600A3C3F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC68A5061EBF60B600A3C3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC68A5111EBF60B600A3C3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EA8D6302E2FF4AFD3A35CC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		369AC34C375C8ECCB3F15EF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMagnetsViewUITests/Pods-TestMagnetsViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7759A14F23F626FA0849B295 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMagnetsView/Pods-TestMagnetsView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B386F2B8D2191D37A0DDAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMagnetsViewUITests/Pods-TestMagnetsViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C745C586A931F5AAE125B5A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMagnetsView/Pods-TestMagnetsView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE501F8608A1E9DB98301218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE8F642BF2763C440F302A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMagnetsViewTests/Pods-TestMagnetsViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0055557C97B5A311CB5A21C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6779E95E9AE11194229431 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMagnetsViewTests/Pods-TestMagnetsViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC68A4EB1EBF60B600A3C3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC68A4FA1EBF60B600A3C3F5 /* ViewController.m in Sources */,
+				CC68A5271EBF611000A3C3F5 /* ALMagnetsView.m in Sources */,
+				CC68A4F71EBF60B600A3C3F5 /* AppDelegate.m in Sources */,
+				CC68A4F41EBF60B600A3C3F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC68A5041EBF60B600A3C3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC68A50D1EBF60B600A3C3F5 /* TestMagnetsViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC68A50F1EBF60B600A3C3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC68A5181EBF60B600A3C3F5 /* TestMagnetsViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC68A50A1EBF60B600A3C3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC68A4EE1EBF60B600A3C3F5 /* TestMagnetsView */;
+			targetProxy = CC68A5091EBF60B600A3C3F5 /* PBXContainerItemProxy */;
+		};
+		CC68A5151EBF60B600A3C3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC68A4EE1EBF60B600A3C3F5 /* TestMagnetsView */;
+			targetProxy = CC68A5141EBF60B600A3C3F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC68A4FB1EBF60B600A3C3F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC68A4FC1EBF60B600A3C3F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC68A5001EBF60B600A3C3F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC68A5011EBF60B600A3C3F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC68A51A1EBF60B600A3C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC68A51B1EBF60B600A3C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC68A51D1EBF60B600A3C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893D640BEB9E8DF300BADD2A /* Pods-TestMagnetsView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestMagnetsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestMagnetsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC68A51E1EBF60B600A3C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D8FA510BF4225229190FB1 /* Pods-TestMagnetsView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestMagnetsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestMagnetsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC68A5201EBF60B600A3C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A67FA5B5F74A46A2CACB666 /* Pods-TestMagnetsViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestMagnetsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestMagnetsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMagnetsView.app/TestMagnetsView";
+			};
+			name = Debug;
+		};
+		CC68A5211EBF60B600A3C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 824C711F7B684B87562A7D73 /* Pods-TestMagnetsViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestMagnetsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestMagnetsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMagnetsView.app/TestMagnetsView";
+			};
+			name = Release;
+		};
+		CC68A5231EBF60B600A3C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D61C72804ECDA41244EF90 /* Pods-TestMagnetsViewUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestMagnetsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestMagnetsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestMagnetsView;
+			};
+			name = Debug;
+		};
+		CC68A5241EBF60B600A3C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C2CEB891EB6DBC700B44E6 /* Pods-TestMagnetsViewUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestMagnetsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestMagnetsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestMagnetsView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC68A4EA1EBF60B600A3C3F5 /* Build configuration list for PBXProject "TestMagnetsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC68A51A1EBF60B600A3C3F5 /* Debug */,
+				CC68A51B1EBF60B600A3C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC68A51C1EBF60B600A3C3F5 /* Build configuration list for PBXNativeTarget "TestMagnetsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC68A51D1EBF60B600A3C3F5 /* Debug */,
+				CC68A51E1EBF60B600A3C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC68A51F1EBF60B600A3C3F5 /* Build configuration list for PBXNativeTarget "TestMagnetsViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC68A5201EBF60B600A3C3F5 /* Debug */,
+				CC68A5211EBF60B600A3C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC68A5221EBF60B600A3C3F5 /* Build configuration list for PBXNativeTarget "TestMagnetsViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC68A5231EBF60B600A3C3F5 /* Debug */,
+				CC68A5241EBF60B600A3C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC68A4E71EBF60B600A3C3F5 /* Project object */;
+}
